@@ -1,0 +1,12 @@
+<table border="1">
+<tr><th>アイテム名</th><th>売値</th></tr>
+<?php
+$items = array(
+"棍棒",
+"銅の短剣","炎の剣","聖なる盾","破邪の兜","勇者の鎧"
+);
+foreach ($items as $i){
+echo"<tr><td>$i</td></tr>";
+}
+?>
+</tablle>
